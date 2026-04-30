@@ -7,3 +7,26 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
 print(states_of_america)
+
+
+fruits = ["Cherry", "Apple", "Pear"]
+len = len(fruits)
+# print(fruits[3]) #This will be an IndexError
+print(fruits[len-1])
+
+#Nested Lists - Note: it is a 2D representation
+# fruits = ["Cherry", "Apple", "Pear"]
+# veg = ["Cucumber", "Kale", "Spinnach"]
+dirty_dozen = ["Cherry", "Apple", "Pear", "Cucumber", "Kale", "Spinnach"]
+print(dirty_dozen)
+
+fruits = ["Cherry", "Apple", "Pear"]
+veg = ["Cucumber", "Kale", "Spinnach"]
+
+dirty_dozen_new = [fruits, veg]
+print(dirty_dozen_new)
+
+print(dirty_dozen_new[1][1])
+
+
+
