@@ -6,6 +6,27 @@ files:
   - name: solution.py
     visible: true
     learner_created: false
+  - name: Maze.py
+    visible: true
+    learner_created: true
+  - name: Hurdle_While_Loop.py
+    visible: true
+    learner_created: true
+  - name: Hurdle 1.py
+    visible: true
+    learner_created: true
+  - name: Hurdle 2.py
+    visible: true
+    learner_created: true
+  - name: Hurdle 3.py
+    visible: true
+    learner_created: true
+  - name: Hurdle 4.py
+    visible: true
+    learner_created: true
+  - name: Maze_Edge_Case.py
+    visible: true
+    learner_created: true
 status: Solved
 record: -1
 post_submission_on_open: true
