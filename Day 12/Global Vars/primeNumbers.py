@@ -1,18 +1,3 @@
-# Modifying Global Scope
-
-enemies = 1
-
-
-def increase_enemies():
-    global enemies
-    enemies += 1
-    print(f"enemies inside function: {enemies}")
-
-
-increase_enemies()
-print(f"enemies outside function: {enemies}")
-
-
 def is_prime(num):
     # Prime numbers must be grater than 1
     if num <= 1:
